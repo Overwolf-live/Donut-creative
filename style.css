@@ -1,0 +1,45 @@
+@font-face {
+   font-family: "connections";
+   src: url("PixelTimes.ttf") format("truetype");
+}
+ @font-face {
+   font-family: "connections";
+   src: url("Connections.otf") format("truetype");
+}
+ body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-family: "retro", sans-serif;
+   background: #A6D4EA no-repeat center center fixed;
+   background-image: url(back2.jpg);
+   background-size: cover;
+}
+
+ #devs {
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   color: #A589BA;
+   font-size: 0.6em;
+}
+ #devs a {
+   color: black;
+}
+ #main-fullscreen-button {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   bottom: 6px;
+   left: 6px;
+   color: white;
+   font-size: 0.6em;
+   font-family: "retro", sans-serif;
+   border: 4px solid white;
+   background: black;
+   cursor: pointer;
+}
+ 
